@@ -1,0 +1,22 @@
+{
+    "name": "react-benchmark",
+    "description": "Benchmark tests for react",
+    "version": "0.0.1",
+    "author": "akshayp@yahoo-inc.com",
+    "repository": {
+        "type": "git",
+        "url": "https://git.corp.yahoo.com/akshayp/react-benchmark"
+    },
+    "scripts": {
+        "test": "node benchmark/createElement.js",
+        "lint": "yhint && tdjscs ."
+    },
+    "dependencies": {
+        "benchmark": "^1.0.0",
+        "react": "^0.12.0"
+    },
+    "devDependencies": {
+        "td-jscs": "^2.1.0",
+        "yhint": "^0.1.0"
+    }
+}
