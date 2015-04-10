@@ -17,5 +17,12 @@
     "devDependencies": {
         "td-jscs": "^2.1.0",
         "yhint": "^0.1.0"
+    },
+    "yhint": {
+        "excludes": [
+            "react-*/*"
+        ],
+        "json": false,
+        "node": true
     }
 }

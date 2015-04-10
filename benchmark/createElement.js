@@ -12,6 +12,17 @@ suite
     var element = react.createElement('h1', null, 'Hello, world!');
     react.renderToString(element);
 })
+.addFunction('createClass', function(react) {
+    var HelloWorld = react.createClass({
+        displayName: 'CommentBox',
+        render: function() {
+            return (react.createElement('div', { className: "hello" }, "Hello, world!"));
+        }
+    });
+
+    var element = react.createElement(HelloWorld, null);
+    react.renderToString(element);
+})
 .addInput('React 12', [React12])
 .addInput('React 12 Min', [React12Min])
 .addInput('React 13', [React13])
