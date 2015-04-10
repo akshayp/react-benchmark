@@ -12,8 +12,7 @@
         "lint": "yhint && tdjscs ."
     },
     "dependencies": {
-        "benchmark": "^1.0.0",
-        "react": "^0.12.0"
+        "benchtable": "~0.0.4"
     },
     "devDependencies": {
         "td-jscs": "^2.1.0",
