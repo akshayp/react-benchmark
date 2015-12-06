@@ -2,27 +2,15 @@
     "name": "react-benchmark",
     "description": "Benchmark tests for react",
     "version": "0.0.1",
-    "author": "akshayp@yahoo-inc.com",
+    "author": "Akshay Patel",
     "repository": {
         "type": "git",
-        "url": "https://git.corp.yahoo.com/akshayp/react-benchmark"
+        "url": "https://github.com/akshayp/react-benchmark"
     },
     "scripts": {
-        "test": "node benchmark/createElement.js",
-        "lint": "yhint && tdjscs ."
+        "test": "node benchmark/createElement.js"
     },
     "dependencies": {
         "benchtable": "~0.0.4"
-    },
-    "devDependencies": {
-        "td-jscs": "^2.1.0",
-        "yhint": "^0.1.0"
-    },
-    "yhint": {
-        "excludes": [
-            "react-*/*"
-        ],
-        "json": false,
-        "node": true
     }
 }
